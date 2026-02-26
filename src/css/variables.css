@@ -1,0 +1,28 @@
+:root {
+  /* Primary Palette */
+  --color-bg: hsl(220, 15%, 4%);
+  --color-surface: hsl(220, 12%, 8%);
+  --color-surface-alt: hsl(220, 10%, 12%);
+  --color-border: hsl(220, 8%, 18%);
+
+  /* Text */
+  --color-text-primary: hsl(220, 10%, 95%);
+  --color-text-secondary: hsl(220, 8%, 65%);
+  --color-text-tertiary: hsl(220, 6%, 40%);
+
+  /* Accent */
+  --color-accent: hsl(45, 100%, 60%);
+  --color-accent-hover: hsl(45, 100%, 70%);
+  --color-accent-subtle: hsl(45, 100%, 15%);
+
+  /* Semantic */
+  --color-success: hsl(142, 70%, 45%);
+
+  /* Typography */
+  --font-display: "Cabinet Grotesk", sans-serif;
+  --font-body: "Manrope", sans-serif;
+
+  /* Layout */
+  --container-width: 1200px;
+  --nav-height: 80px;
+}

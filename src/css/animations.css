@@ -1,0 +1,26 @@
+/* GSAP handles complex orchestration, 
+   but basic initial states and CSS fallbacks go here */
+   
+   @keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.reveal-nav {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.reveal-hero {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.reveal-scroll {
+    opacity: 0;
+    transform: translateY(40px);
+}
